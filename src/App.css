@@ -1,0 +1,27 @@
+* { margin:0; padding:0; box-sizing:border-box; }
+
+div {
+    display: flex;
+    justify-content: center;
+    /* align horizontal */
+    align-items: center;
+    /* align vertical */
+    /* width: 100vw;
+    height: 100vw; */
+    height: 100vh;
+}
+
+img {
+    width: 200px;
+    cursor: pointer;
+}
+
+a {
+    font-family: "Times New Roman", Times, serif;
+    font-style: normal;
+    font-size: 40px;
+    font-weight: bold;
+    border-width:5px;  
+    border-bottom-style:double;
+    cursor: pointer;
+}
